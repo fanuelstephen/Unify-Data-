@@ -1,0 +1,67 @@
+.visitor-row {
+  flex: 0.6;
+  color: #fff;
+}
+.visitor_content {
+  flex: 0.9;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 20px;
+}
+.heading {
+  margin-bottom: 2rem;
+}
+.visitor_description {
+  background-color: #988dc8;
+  padding: 20px;
+}
+.description_heading {
+  display: flex;
+  justify-content: space-between;
+}
+.description_heading span {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.visitor_description p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.Visitors p,
+.Visitors span {
+  color: #16151e;
+}
+
+.percent {
+  background-color: #fff;
+  color: #16151e;
+  font-size: 11px;
+  padding: 3px 6px;
+  border-radius: 30px;
+}
+.Visitors {
+  border-top-left-radius: 20px;
+}
+.Deal {
+  border-bottom-left-radius: 20px;
+}
+.contact {
+  border-top-right-radius: 20px;
+  border-bottom: 0.1px solid #77777751;
+  border-left: 0.1px solid #77777751;
+}
+.Revenue {
+  border-bottom-right-radius: 20px;
+  border-left: 0.1px solid #77777751;
+}
+.Revenue,
+.contact,
+.Deal {
+  background-color: #1c1b24;
+}
+.Revenue .percent,
+.contact .percent,
+.Deal .percent {
+  background-color: #cfe888;
+}

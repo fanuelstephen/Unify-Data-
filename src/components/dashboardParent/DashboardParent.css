@@ -1,0 +1,169 @@
+.dashbordParent_row {
+  flex: 4;
+  background-color: #16151e;
+  padding: 40px;
+  /* overflow-x: hidden; */
+}
+.visitor_revenue {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 1.5rem;
+}
+.table_doughnut {
+  display: flex;
+  gap: 30px;
+}
+.dashbordParent_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.search_input {
+  position: relative;
+}
+.search_icon {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  font-size: 20px;
+  color: #adabae;
+}
+.search_input input {
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #333;
+  outline: none;
+  padding: 11px 11px 11px 47px;
+  background-color: #1c1b24;
+}
+
+@media only screen and (max-width: 320px) {
+  .dashbordParent_row {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .dashbordParent_row {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menu_icon {
+    font-size: 24px;
+  }
+  .show {
+    transform: translate(0px);
+    transition: all 0.3s ease-in;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
+  .hide {
+    transform: translateX(-202px);
+    transition: all 0.3s ease-out;
+  }
+  .unifydata_row {
+    position: absolute;
+  }
+  .dashbordParent_row {
+    padding: 28px 12px;
+    overflow-x: hidden;
+  }
+  .visitor-row .visitor_description {
+    padding: 14px;
+  }
+  .revenue-chart_row {
+    display: none;
+  }
+  .table_row {
+    display: none;
+  }
+  .doughnut_row {
+    padding: 25px 7px;
+  }
+
+  .visitor_content {
+    grid-template-columns: 1;
+  }
+  .table_doughnut .doughnut_details {
+    gap: 0px;
+  }
+  .table_doughnut .doughnut_row {
+    padding: 25px 6px;
+  }
+
+  .piechart {
+    width: 273px;
+    height: 220px;
+  }
+
+  .dashbordParent_heading h2 {
+    font-size: 20px;
+  }
+  .search_input input {
+    padding: 4px 5px 7px 29px;
+  }
+  .search_icon {
+    top: 22%;
+    left: 3%;
+    font-size: 16px;
+  }
+  .unifydata_content {
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 640px) {
+  .unifydata_row {
+    padding: 40px 14px;
+  }
+  .dashbordParent_row {
+    padding: 28px 12px;
+    overflow-x: hidden;
+  }
+  .visitor-row .visitor_description {
+    padding: 14px;
+  }
+  .revenue-chart_row {
+    display: none;
+  }
+  .table_row {
+    display: none;
+  }
+  .doughnut_row {
+    padding: 25px 7px;
+  }
+  .visitor_revenue .visitor-row {
+    flex: 1;
+  }
+
+  .visitor_content {
+    grid-template-columns: 1;
+  }
+  .table_doughnut .doughnut_details {
+    gap: 0px;
+  }
+  .table_doughnut .doughnut_row {
+    padding: 25px 6px;
+  }
+
+  .piechart {
+    width: 273px;
+    height: 220px;
+  }
+
+  .dashbordParent_heading h2 {
+    font-size: 20px;
+  }
+  .search_input input {
+    padding: 4px 5px 7px 29px;
+  }
+  .search_icon {
+    top: 22%;
+    left: 3%;
+    font-size: 16px;
+  }
+  .unifydata_content {
+    margin-bottom: 2rem;
+  }
+}

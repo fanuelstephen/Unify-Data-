@@ -1,0 +1,36 @@
+.revenue-chart_row {
+  flex: 0.7;
+  background-color: #1c1b24;
+  padding: 13px 5px;
+  border-radius: 20px;
+}
+.revenue_chart-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 30px;
+  color: #fff;
+}
+.revenue_chart-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.dot_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dot_deal {
+  background-color: #fcb8fd;
+}
+.dot_revenue {
+  background-color: #564096;
+}

@@ -1,0 +1,85 @@
+.unifydata_row {
+  background-color: #151019;
+  padding: 40px;
+  flex: 1;
+}
+
+.unifydata_heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+.unifydata_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 8rem;
+}
+.dashbord_side,
+.seting_side {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 55px 0px;
+}
+.dashbord_side span,
+.seting_side span {
+  color: #acaaae;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+.dashbord_side span:hover,
+.seting_side span:hover {
+  color: #ca95cddd;
+}
+.seting_side {
+  border-top: 0.5px solid #333;
+  width: 100%;
+}
+
+.icon {
+  font-size: 20px;
+  color: #acaaae;
+}
+.dashbord,
+.revenue,
+.journeys,
+.performance,
+.platform,
+.setting,
+.Help {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.5px solid #333;
+  padding-top: 25px;
+}
+.user_info_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.user_details h6 {
+  font-size: 14px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+.user_details p {
+  font-size: 8px;
+  color: #bbb;
+}
+.vertical_dots {
+  font-size: 22px;
+}

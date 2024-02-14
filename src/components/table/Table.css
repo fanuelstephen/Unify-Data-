@@ -1,0 +1,76 @@
+.table_row {
+  flex: 0.76;
+  background-color: #1c1b24;
+  padding: 20px;
+  border-radius: 20px;
+}
+.table_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  color: #fbfbfa;
+}
+.table_heading h4 {
+  color: #fbfbfa;
+  font-size: 20px;
+}
+tr th {
+  padding: 12px;
+  font-size: 11px;
+  color: #c0bfc0;
+}
+
+tr td {
+  border-top: 0.5px solid #333;
+  font-size: 12px;
+  padding: 10px;
+  color: #f8f8e5;
+}
+.td_lead {
+  color: #fff;
+  font-weight: bold;
+}
+.td_name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-right: 50px;
+}
+.td-name_discription {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+.td-name_discription h4 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fbfbfa;
+}
+.td-name_discription span {
+  font-size: 13px;
+  color: #707070;
+}
+.icon-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #36353c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.td_icon {
+  font-size: 20px;
+}
+.td_amount {
+  color: #d8ee9f;
+  font-weight: bold;
+}
+.table_btn {
+  background-color: #1c1b24;
+  border: 0.5px solid #656565;
+  padding: 5px 12px;
+  color: #76777b;
+}
